@@ -2,7 +2,8 @@
 a 160 trials, binned in 16 trial intervals. The result are also stored in a spreadsheet
 "output.xls" for later statistical analysis (if needed). These results can be compared to
 running the program again except without the "fixer" effect of reinforcement by 
-commenting out just line 73.
+commenting out just line 73. Values in the success vector define the sequence of turns
+that lead to reinforcement.
 =end
 require 'matrix'
 require 'spreadsheet'
